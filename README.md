@@ -2,6 +2,7 @@
 
 An end-to-end data science project that forecasts retail demand using ARIMA, Prophet, and LSTM, compares models visually, and recommends optimal inventory levels to reduce stockouts and overstock.
 
+
 🎯 Why This Project Matters
 
 Retail businesses lose money due to:
@@ -12,6 +13,7 @@ Stockouts → lost sales
 
 This project solves the problem using data-driven demand forecasting + inventory planning.
 
+
 🧠 What I Built (End-to-End)
 
 ✔ Synthetic retail dataset (1800+ rows)
@@ -20,13 +22,16 @@ This project solves the problem using data-driven demand forecasting + inventory
 ✔ Model comparison using graphs + MAE
 ✔ Inventory optimization logic (reorder point)
 
+
 📊 Models Used
 Model	Purpose
 ARIMA	Baseline statistical forecasting
 Prophet	Trend & seasonality modeling
 LSTM	Deep learning for complex patterns
 
+
 📌 Result: LSTM achieved the lowest MAE.
+
 
 📈 Key Visual Analysis
 
@@ -37,6 +42,7 @@ Error comparison bar chart
 Model performance interpretation
 
 Visual analysis clearly shows LSTM outperforming ARIMA and Prophet in accuracy.
+
 
 📦 Inventory Optimization Logic
 
